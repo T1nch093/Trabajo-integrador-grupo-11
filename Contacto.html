@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/carrito.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Principal.html"><img src="img/gorro.png" alt="gorrito"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Contacto.html">Contacto</a><!--crear pagina con plantilla-->
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="BuzosHombre.html">Hombre</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Mujer</a></li>
+          
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" id="search">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+        <div class="hr"></div>
+</body>
+<h6 class="parrafo">¡Hola! Si estás interesado en nuestros servicios o tienes alguna consulta, te invitamos a que te contactes con nosotros llenando el formulario que se encuentra en nuestra página web. Además, si necesitas asistencia inmediata, también puedes comunicarte con nosotros a través de nuestras redes sociales.</h1>
+<div class="contenedorContacto">
+  <form class="row g-3">
+    <div class="col-md-6">
+      <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+    </div>
+    <div class="col-md-6">
+      <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+    </div>
+    <div class="col-12">
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="col-12">
+      <input type="number" class="form-control" id="inputNumber" placeholder="Celualr (011)-15-3333-3333">
+    </div>
+    <div class="col-md-6">
+      <input type="text" class="form-control" id="inputCity" placeholder="Ciudad">
+    </div>
+    <div class="col-12">
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary" id="Contactar">Contactar</button>
+    </div>
+  </form>
+</div>
+<footer class="hrpiedepagina">
+  <h6>Copyright (c) 2023.
+    <a href="#"><img src="img/instagram.png" alt=""></a>
+    <a href="#"><img src="img/whatsapp.png" alt=""></a>
+  </h6>
+</footer>
+</html>
